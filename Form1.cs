@@ -56,7 +56,7 @@ namespace adilform
 
         }
         //lista dove visualizzare i prodotti e il prezzo
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        private void ListView1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
@@ -68,7 +68,7 @@ namespace adilform
         {
             for (int i = 0; i < dim; i++)
             {
-                if (p[i].nome == textBox1.Text)
+                if (p[i].nome == nome.Text)
                 {
                     p[i].nome = nuovonome.Text;
                     p[i].prezzo = float.Parse(nuovoprezzo.Text);
@@ -115,6 +115,17 @@ namespace adilform
         }
 
         private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        //cancellazione di un prodotto ricercato tramite nome
+        private void ListView1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
